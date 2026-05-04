@@ -109,6 +109,11 @@ ACTION_RECOMMENDATIONS = {
 st.set_page_config(
     page_title="Trainer Improvement Dashboard",
     layout="wide",
+    menu_items={
+        "Get Help": None,
+        "Report a bug": None,
+        "About": None,
+    },
 )
 
 
